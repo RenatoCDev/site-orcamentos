@@ -14,7 +14,7 @@ Site desenvolvido para receber pedidos de orçamentos para automatizações de t
 <br>
 
 <p align="center">
-  <img alt="Imagem do projeto" src="./assets/_ed3ed8af-07fd-4f50-8ece-a45921267ace-removebg-preview.png" width="100%">
+  <img alt="Programador de coque" src="./vscode/assets/_ed3ed8af-07fd-4f50-8ece-a45921267ace-removebg-preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Preencha o formulário
 - Aguarde meu contato nas próximas horas para discutirmos seu projeto.
 
-- [Acesse o projeto finalizado, online] (https:///)
+- [Acesse o projeto finalizado, online] (https://renatocdev.github.io/site-orcamentos/)
 
 ---
 
