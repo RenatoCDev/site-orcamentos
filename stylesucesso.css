@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    font-family: 'vt323', sans-serif;
+}
+
+body {
+    
+    background: linear-gradient(0, #4c0774, #000000);
+    margin: 10px;
+    padding: 0;
+    height: 100%;
+    
+
+}
+
+div {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.stars {
+    position: relative;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+    100px 80px white,
+    80px 120px white,
+    300px 20px white,
+    250px 130px white,
+    200px 50px white,
+    150px 100px white,
+    320px 100px white,
+    200px 90px white,
+    90px 320px white,
+    400px 30px white,
+    350px 230px white,
+    300px 60px white,
+    250px 200px white,
+    420px 200px white,
+    300px 100px white,
+    100px 420px white,
+    500px 40px white,
+    450px 330px white,
+    400px 70px white,
+    350px 300px white,
+    520px 300px white,
+    400px 200px white,
+    200px 520px white,
+    600px 50px white,
+    550px 430px white,
+    500px 80px white,
+    450px 400px white,
+    620px 500px white,
+    500px 300px white,
+    300px 620px white,
+    700px 60px white,
+    650px 530px white,
+    600px 90px white,
+    550px 600px white,
+    720px 600px white,
+    600px 400px white,
+    400px 720px white,
+    800px 70px white,
+    750px 630px white,
+    700px 100px white,
+    650px 700px white,
+    820px 700px white,
+    16px 14px white,
+    140px 170px white,
+    100px 170px white,
+    170px 160px white,
+    170px 100px white,
+    160px 170px white,
+    182px 170px white,
+    950px 830px white,
+    990px 80px white,
+    950px 700px white,
+    920px 700px white,
+    800px 650px white,
+    700px 920px white,
+    600px 701px white,
+    700px 530px white,
+    800px 900px white,
+    750px 950px white,
+    930px 800px white;
+
+    animation: anim-stars 20s linear infinite;
+}
+
+.stars::after{
+    content: " ";
+    position: absolute;
+    top: 100vh;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+    100px 80px white,
+    80px 120px white,
+    300px 20px white,
+    250px 130px white,
+    200px 50px white,
+    150px 100px white,
+    320px 100px white,
+    200px 90px white,
+    90px 320px white,
+    400px 30px white,
+    350px 230px white,
+    300px 60px white,
+    250px 200px white,
+    420px 200px white,
+    300px 100px white,
+    100px 420px white,
+    500px 40px white,
+    450px 330px white,
+    400px 70px white,
+    350px 300px white,
+    520px 300px white,
+    400px 200px white,
+    200px 520px white,
+    600px 50px white,
+    550px 430px white,
+    500px 80px white,
+    450px 400px white,
+    620px 500px white,
+    500px 300px white,
+    300px 620px white,
+    700px 60px white,
+    650px 530px white,
+    600px 90px white,
+    550px 600px white,
+    720px 600px white,
+    600px 400px white,
+    400px 720px white,
+    800px 70px white,
+    750px 630px white,
+    700px 100px white,
+    650px 700px white,
+    820px 700px white,
+    16px 14px white,
+    140px 170px white,
+    100px 170px white,
+    170px 160px white,
+    170px 100px white,
+    160px 170px white,
+    182px 170px white,
+    950px 830px white,
+    990px 80px white,
+    950px 700px white,
+    920px 700px white,
+    800px 650px white,
+    700px 920px white,
+    600px 701px white,
+    700px 530px white,
+    800px 900px white,
+    750px 950px white,
+    930px 800px white;
+}
+
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-100vh);
+    }
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+p {
+    color: grey;
+}
+
+a {
+    border: solid 1px;
+    border-radius: 10px;
+    color: rgb(175, 175, 175);
+    font-size: 30px;
+    padding: 10px;
+}

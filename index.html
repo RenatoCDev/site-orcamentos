@@ -33,8 +33,13 @@
                   Após recebermos suas informações, entraremos em contato para agendar uma reunião personalizada.</li>
             </ul>
                 <form action="https://formsubmit.co/ocamentosautomacoes@gmail.com" method="POST">
+                    <!--Campos que configuram automações do formulário. Esses inputs não aparecem na página-->
+                    <input type="hidden" name="_next" value="https://renatocdev.github.io/sucesso.html">
+                    <input type="hidden" name="_autoresponse" value="Olá! Espero que esteja bem. Aqui é o Renato e te agradeço por compartilhar esse projeto comigo. Agora, farei uma análise detalhada do que precisa e entrarei em contato para agendarmos um bate-papo onde conversaremos sobre cada detalhe do seu projeto. Até mais 🧑🏻‍💻 ">
+                    <!--Campos do formulário que aparecem na página-->
                     <input type="text" name="name" placeholder="Seu Nome" required> 
                     <input type="tel" name="tel" placeholder="DDD + Número de Telefone" required> 
+                    <input type="e-mail" name="e-mail" placeholder="Digite seu e-mail aqui." required>
                     <textarea type="message" name="message" placeholder="Dê o máximo de detalhes da tarefa digital que precisa automatizar." required></textarea> 
                     <button type="submit">Enviar</button>
 
