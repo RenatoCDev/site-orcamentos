@@ -202,3 +202,8 @@ a {
     font-size: 30px;
     padding: 10px;
 }
+
+ion-icon {
+    color: aliceblue;
+    font-size: 32px;
+}

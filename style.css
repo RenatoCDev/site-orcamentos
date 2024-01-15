@@ -261,3 +261,8 @@ img {
 p {
     color: grey;
 }
+
+ion-icon {
+    color: aliceblue;
+    font-size: 32px;
+}
