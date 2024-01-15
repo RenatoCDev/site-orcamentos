@@ -14,7 +14,7 @@ Site desenvolvido para receber pedidos de orçamentos para automatizações de t
 <br>
 
 <p align="center">
-  <img alt="Programador de coque" src="./vscode/assets/_ed3ed8af-07fd-4f50-8ece-a45921267ace-removebg-preview.png" width="100%">
+  <img alt="Programador de coque" src="./Programador de coque Logo.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
